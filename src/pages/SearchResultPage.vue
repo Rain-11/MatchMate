@@ -4,8 +4,8 @@
 </template>
 
 <script setup lang="ts">
-import {getUserListByTag, getUserRecommendations} from '../api/api';
-import type {CurrentUser} from '../models/Models';
+import {getUserListByTag} from '../api/api';
+import type {CurrentUser} from '@/models/Models';
 import {QueryUserByTag} from "@/api/type";
 
 const {

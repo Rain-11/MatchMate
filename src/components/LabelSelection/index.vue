@@ -77,7 +77,6 @@ const getActiveIds = () => {
 /**
  * 修改标签
  */
-const modifyLabels = async () => {};
 
 const updateActiveIds = (value: string) => {
   activeIds.value = JSON.parse(value);
